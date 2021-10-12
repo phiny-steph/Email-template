@@ -149,13 +149,61 @@ a {
 }
 
 .about {
+  line-height: 1.2rem;
+  color: #393d47;
+  padding: 0rem 4rem;
   
 }
 
-.img {
-
+.about-heading {
+  padding: 2rem 0;
+  font-size: 2rem;
+  color: #FFA500;
 }
 
-.footer {
+.img {
+ margin-left: 10rem;
+}
 
+
+.footer {
+  background-color: #383029;
+  display: flex;
+  color: #fff;
+  width: 100vw;
+  justify-content: center;
 } 
+
+.footer-wrapper {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav > ul > li {
+  color: #fff;
+  list-style: none;
+  width: 30vw;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+ 
+}
+
+.contact {
+  padding: 2rem 4rem;
+  
+}
+
+.links {
+  padding: 2rem 4rem;
+}
+
+.contact-heading  {
+  padding: 2rem 0;
+}
+
+.link-heading {
+  padding: 2rem 0;
+}
